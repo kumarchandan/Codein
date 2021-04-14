@@ -24,3 +24,6 @@ let findMaxSlidingWindow = function(arr, window_size) {
 // [2, 3, 6]
 console.log(findMaxSlidingWindow([1,2,3,4,3,2,1,2,5],4))
 // [4, 4, 4, 4, 3, 5]
+
+// Runtime complexity
+// O (m*n)  = for_loop * while_loop
