@@ -1,3 +1,4 @@
+// Q: Given three integer arrays sorted in ascending order, return the smallest number that is common in all three arrays.
 // Runtime Complexity: Linear O(n) : Traverses the array only once
 // Memory Complexity: Constant O(1)
 
