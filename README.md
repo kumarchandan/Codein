@@ -1,5 +1,5 @@
 # ✍️ Coding-Javascript
-## by Chandan Kumar
+## by [Chandan Kumar](https://enchandan.com/)
 
 ✨ Summary
 ---
