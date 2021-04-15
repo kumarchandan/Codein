@@ -1,6 +1,7 @@
-# Coding-Javascript
-Javascript coding
+# ✍️ Coding-Javascript
 
+✨ Summary
+---
 
 | Day | Category | Solution | Optimized Solution |
 | --- | -------- | ----- | --------- |
