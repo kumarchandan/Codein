@@ -13,3 +13,4 @@
 | 6. | `String` | [LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a Sentence](Data-Structure-Problems/Strings/Reverse-Words-in-a-Sentence.js) | [Reverse Words in a Sentence In-place](Data-Structure-Problems/Strings/Reverse-Words-in-a-Sentence-Inplace.js) | |
 | 7. | `String` |  | [Remove White Spaces from a String In-place](Data-Structure-Problems/Strings/Remove-White-Spaces-from-a-String-Inplace.js) | | |
 | 8. | `String` |  | [Word Break Problem](Data-Structure-Problems/Strings/Word-Break-Problem-Limited.js) | [Word Break Problem Optimized](Data-Structure-Problems/Strings/Word-Break-Problem-Optimized.js) | |
+| 9. | `String` | [LeetCode](https://leetcode.com/problems/palindromic-substrings/) | [Find all Palindrome Substrings O(n^3)](Data-Structure-Problems/Strings/Find-all-Palindrome-Substrings-O(n^3).js) | [Find all Palindrome Substrings O(n^2)](Data-Structure-Problems/Strings/Find-all-Palindrome-Substrings-O(n^2).js) | |
