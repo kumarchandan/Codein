@@ -12,3 +12,4 @@
 | 5. | `String` |  | [Remove Duplicates from a String In-place](Data-Structure-Problems/Strings/Remove-Duplicates-from-a-String-Inplace.js) | [Remove Duplicates from a String In-place 2](Data-Structure-Problems/Strings/Remove-Duplicates-from-a-String-Inplace-2.js) | |
 | 6. | `String` | [LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a Sentence](Data-Structure-Problems/Strings/Reverse-Words-in-a-Sentence.js) | [Reverse Words in a Sentence In-place](Data-Structure-Problems/Strings/Reverse-Words-in-a-Sentence-Inplace.js) | |
 | 7. | `String` |  | [Remove White Spaces from a String In-place](Data-Structure-Problems/Strings/Remove-White-Spaces-from-a-String-Inplace.js) | | |
+| 8. | `String` |  | [Word Break Problem](Data-Structure-Problems/Strings/Word-Break-Problem-Limited.js) | [Word Break Problem Optimized](Data-Structure-Problems/Strings/Word-Break-Problem-Optimized.js) | |
