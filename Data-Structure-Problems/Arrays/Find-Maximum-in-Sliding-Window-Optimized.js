@@ -1,5 +1,20 @@
-// Runtime complexity: linear O(n)
-// Memory complexity: linear O(w), where w = window_size
+/**
+ * Given a large array of integers and a window of size w,
+ * find the current maximum value in the window as the window slides through the entire array.
+ * 
+ * Input: [-4, 2, -5, 3, 6], windowSize=3
+ * Output: 2, 3, 6
+ */
+
+/**
+ * Runtime complexity: linear O(n)
+ * Memory complexity: linear O(w), where w = window_size
+ */
+
+ /**
+  * Every element is pushed and popped from the deque only once in a single traversal.
+  */
+
 
 let ffindMaxSlidingWindow = function(arr, windowSize) {
     let result = [];

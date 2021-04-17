@@ -3,11 +3,12 @@
  *    For positive values of NN, perform a right rotation.
  *    For negative values of NN, perform a left rotation.
  *    Make sure you make changes to the original array.
- * 
- * 
+ */ 
+ /* 
  * Runtime Comoplexity: Linear O(n)
  * Memory Complexity: Constant O(1)
- * 
+ */
+/* 
  * Here is how the solution works:
  *    Normalize the rotations so they do not exceed the length of the array.
  *    Convert negative rotations to positive rotations.

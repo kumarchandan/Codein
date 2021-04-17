@@ -1,6 +1,14 @@
-// Q: Given three integer arrays sorted in ascending order, return the smallest number that is common in all three arrays.
-// Runtime Complexity: Linear O(n) : Traverses the array only once
-// Memory Complexity: Constant O(1)
+/**
+ * Given three integer arrays sorted in ascending order,
+ * return the smallest number that is common in all three arrays.
+ * 
+ * Input: [1, 4, 6, 7, 8, 10, 14], [1, 4, 5, 6, 7, 8, 50], [0, 6, 7, 8, 10, 25, 30, 40]
+ * Output: 6
+ */
+/**
+ * Runtime Complexity: Linear O(n) : Traverses the array only once
+ * Memory Complexity: Constant O(1)
+ */
 
 let findLeastCommonNumber = function(a, b, c) {
   let i = 0;
