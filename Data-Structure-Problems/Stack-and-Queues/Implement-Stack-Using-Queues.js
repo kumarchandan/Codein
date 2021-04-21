@@ -34,7 +34,7 @@ class StackUsingQueue {
     }
 
     size() {
-        return this.queue1.length;
+        return this.queue1.length + this.queue2.length;
     }
 
     swapQueues() {
@@ -52,7 +52,7 @@ class StackUsingQueue {
             return -1;
         }
 
-        while (this.size() > 1) {
+        while (this.queue1.length > 1) {
             this.queue2.push(this.queue1.shift()); // shift() -> works like dequeue, push() -> works like enqueue
         }
 
