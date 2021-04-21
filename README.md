@@ -19,3 +19,4 @@
 | 12. | `Array` |  | [Stock Buy Sell to Maximize Profit O(n))](Data-Structure-Problems/Arrays/Stock-Buy-Sell-to-Maximize-Profit-O(n).js) | | |
 | 13. | `Array` |  | [Merge an Array With Overlapping Intervals O(n)](Data-Structure-Problems/Arrays/Merge-an-Array-With-Overlapping-Intervals-O(n).js) | [Merge an Array With Overlapping Intervals O(n) 2](Data-Structure-Problems/Arrays/Merge-an-Array-With-Overlapping-Intervals-O(n)-2.js) | |
 | 14. | `Queue` |  | [Reversing First k Elements of Queue](Data-Structure-Problems/Stack-and-Queues/Reversing-First-k-Elements-of-Queue.js) | | |
+| 15. | `Queue` |  | [Implement Stack Using Queues](Data-Structure-Problems/Stack-and-Queues/Implement-Stack-Using-Queues.js) | [Implement Stack Using Queues 2](Data-Structure-Problems/Stack-and-Queues/Implement-Stack-Using-Queues-2.js) | |
