@@ -8,14 +8,16 @@
 /**
  * first = 0
  * second = 1
- * sum = 0 + 1 = 1
- * count = 2
+ * next = first + second
+ * count = 2 (already have 2 numbers determined, start from 3rd)
  * 
  * while count >= num:
- *  sum = first + second
- *  temp = second
+ *  next = first + second
  *  first = second
- *  first 
+ *  second = next
+ *  count++ 
+ * 
+ * return next
  */
 
 let getFibonacci = function (num) {
