@@ -25,4 +25,4 @@
 | 18. | `String` | [LeetCode](https://leetcode.com/accounts/login/?next=/problems/longest-repeating-substring/) | [Longest Common Substring O(3^{m+n})](Strings/Longest-Common-Substring-O(3^{m+n}).js) | [Longest Common Substring O(m*n)](Strings/Longest-Common-Substring-O(m*n).js)  | [Longest Common Substring O(n)](Strings/Longest-Common-Substring-O(n).js) |
 | 19. | `Dynamic Programming` |  | [Fibonacci Numbers O(2^n)](Dynamic-Programming/Fibonacci-Numbers-O(2^n).js)  | [Fibonacci Numbers O(n)](Dynamic-Programming/Fibonacci-Numbers-O(n).js) | |
 | 20. | `String` |  | [Find Common Substring Occurence O(n*m)](Strings/Find-Common-Substring-Occurence-O(n*m).js) |   |  |
-| 21. | `Dynamic Programming` |  | [Largest Sum Subarray O(n)](Dynamic-Programming/Largest-Sum-Subarray-O(n).js)  | | |
+| 21. | `Dynamic Programming` | [LeetCode](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)  | [Largest Sum Subarray O(n)](Dynamic-Programming/Largest-Sum-Subarray-O(n).js)  | | |
