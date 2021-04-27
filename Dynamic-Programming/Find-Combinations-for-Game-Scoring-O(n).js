@@ -28,8 +28,15 @@
  * their performance by storing the results of expensive function calls and returning 
  * the cached result when the same input occurs again. It saves the computed results 
  * for possible later reuse, rather than recomputing them.
+ */
+/**
+ * We’ll use the dynamic programming approach to building the solution bottom-up by storing 
+ * the results in a fixed-size array.
  * 
- * 
+ */
+/**
+ * Runtime Complexity: O(n)
+ * Space Complexity: O(1)
  */
 
  // Scoring options are: 1, 2, 4
