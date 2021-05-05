@@ -29,3 +29,4 @@
 | 22. | `Dynamic Programming` |  | [Find Combinations for Game Scoring Recursive O(n)](Dynamic-Programming/Find-Combinations-for-Game-Scoring-Recursive-O(n).js) | [Find Combinations for Game Scoring O(n)](Dynamic-Programming/Find-Combinations-for-Game-Scoring-O(n).js)  | |
 | 23. | `Dynamic Programming` | [LeetCode](https://leetcode.com/problems/combination-sum-iv/) | [Combination Sum IV](Dynamic-Programming/Combination-Sum-IV.js) |  | |
 | 24. | `Array` | [LeetCode](https://leetcode.com/problems/smallest-range-i/)  | [Smallest Range I](Arrays/Smallest-Range-I.js) | | |
+| 25. | `Array` | [LeetCode](https://leetcode.com/problems/find-pivot-index/)  | [Find Pivot Index](Arrays/Find-Pivot-Index.js) | [Find Pivot Index 2](Arrays/Find-Pivot-Index-2.js) | |
