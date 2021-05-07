@@ -9,7 +9,7 @@ module.exports = class Graph {
         
         var it;
         for (it = 0; it < vertices; it++) {
-            let temp = new LinkedList();
+            let temp = new LinkedList(); // Initializes a LinkedList with head -> null
             this.list.push(temp);
         }
     }
