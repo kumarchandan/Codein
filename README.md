@@ -1,5 +1,7 @@
 # ✍️ Coding-Javascript
 
+`100 days of coding`, `javascript`, `algorithms`, `data structures`, `dynamic programming`
+
 ✨ Summary
 ---
 
@@ -32,3 +34,4 @@
 | 25. | `Array` | [LeetCode](https://leetcode.com/problems/find-pivot-index/)  | [Find Pivot Index](Arrays/Find-Pivot-Index.js) | [Find Pivot Index 2](Arrays/Find-Pivot-Index-2.js) | |
 | 26. | `Array` | [HackerRank](https://www.hackerrank.com/)  | [Pack Numbers](Arrays/Pack-Numbers.js) | | |
 | 27. | `Array` | [LeetCode](https://leetcode.com/problems/missing-number/)  |  [Missing Number O(n^2)](Arrays/Missing-Number-O(n^2).js)| [Missing Number O(nlogn)](Arrays/Missing-Number-O(nlogn).js) |[Missing Number O(n)](Arrays/Missing-Number-O(n).js) |
+| 28. | `Graph` | [InterviewBit](https://www.interviewbit.com/problems/cycle-in-directed-graph/) | [Detect Cycle in Graph](Graphs/Detect-Cycle-in-Graph.js) |  | |
