@@ -25,10 +25,10 @@ module.exports = class Graph {
         console.log(">>Adjacency List of Directed Graph<<");
         var i;
         for (i = 0; i < this.list.length; i++) {
-            process.stdout.write("|" + String(i) + "| => ");
+            console.log("|" + String(i) + "| => ");
             let temp = this.list[i].getHead();
             while (temp != null) {
-                process.stdout.write("[" + String(temp.data) + "] -> ");
+                console.log("[" + String(temp.data) + "] -> ");
                 temp = temp.nextElement;
             }
             console.log("null ");
