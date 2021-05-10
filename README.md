@@ -36,3 +36,4 @@
 | 27. | `Array` | [LeetCode](https://leetcode.com/problems/missing-number/)  |  [Missing Number O(n^2)](Arrays/Missing-Number-O(n^2).js)| [Missing Number O(nlogn)](Arrays/Missing-Number-O(nlogn).js) |[Missing Number O(n)](Arrays/Missing-Number-O(n).js) |
 | 28. | `Graph` | [InterviewBit](https://www.interviewbit.com/problems/cycle-in-directed-graph/) | [Detect Cycle in Graph](Graphs/Detect-Cycle-in-Graph.js) |  | |
 | 29. | `String` | [LeetCode](https://leetcode.com/problems/integer-to-roman/) | [Integer to Roman](Strings/Integer-to-Roman.js) | | |
+| 30. | `Array` |   | [Find Pair With Given Sum in an Array](Arrays/Find-Pair-With-Given-Sum-in-an-Array.js) | [Find Pair With Given Sum in an Array 2](Arrays/Find-Pair-With-Given-Sum-in-an-Array-2.js)  | |
