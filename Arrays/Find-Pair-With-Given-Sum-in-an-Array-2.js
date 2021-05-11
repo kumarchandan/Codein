@@ -9,6 +9,7 @@
  * Memory Complexity: O(1)
  */
 
+// This solution works only for sorted data.
 let findSumOfTwo = function(A, val) {
     let i = 0;
     let j = A.length - 1;
@@ -28,7 +29,7 @@ let findSumOfTwo = function(A, val) {
     return false;
 };
 
-let v = [5, 7, 1, 2, 8, 4, 3];
+let v = [1, 2, 4, 5, 7, 14, 15];
 let test = [3, 20, 1, 2, 7];
 
 for (i = 0; i < test.length; i++) {

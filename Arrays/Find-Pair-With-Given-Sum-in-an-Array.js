@@ -9,7 +9,6 @@
  * Memory Complexity: O(n)
  */
 
-// This solution works only for sorted data.
 let findSumOfTwo = function(A, val) {
     let foundValues = new Set();
     for (let a in A) {
