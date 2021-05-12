@@ -37,4 +37,4 @@
 | 28. | `Graph` | [InterviewBit](https://www.interviewbit.com/problems/cycle-in-directed-graph/) | [Detect Cycle in Graph](Graphs/Detect-Cycle-in-Graph.js) |  | |
 | 29. | `String` | [LeetCode](https://leetcode.com/problems/integer-to-roman/) | [Integer to Roman](Strings/Integer-to-Roman.js) | | |
 | 30. | `Array` | [LeetCode](https://leetcode.com/problems/two-sum/)   | [Find Pair With Given Sum in an Array](Arrays/Find-Pair-With-Given-Sum-in-an-Array.js) | [Find Pair With Given Sum in an Array 2](Arrays/Find-Pair-With-Given-Sum-in-an-Array-2.js)  | |
-| 31. | `Array` |  | [Equal Subset Sum Partition](Arrays/Equal-Subset-Sum-Partition.js) |  | |
+| 31. | `Array` |  | [Equal Subset Sum Partition](Arrays/Equal-Subset-Sum-Partition.js) |  | [Equal Subset Sum Partition BottomUp DP](Arrays/Equal-Subset-Sum-Partition-BottomUp-DP.js) |
