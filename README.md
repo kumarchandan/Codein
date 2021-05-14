@@ -1,4 +1,4 @@
-# ✍️ Coding-Javascript
+# ✍️ Codin-Javascript
 
 `100 days of coding`, `javascript`, `algorithms`, `data structures`, `dynamic programming`
 
