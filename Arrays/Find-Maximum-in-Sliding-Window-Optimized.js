@@ -16,7 +16,7 @@
   */
 
 
-let ffindMaxSlidingWindow = function(arr, windowSize) {
+let findMaxSlidingWindow = function(arr, windowSize) {
     let result = [];
     
     if(arr.length == 0) {
@@ -57,16 +57,16 @@ let ffindMaxSlidingWindow = function(arr, windowSize) {
       result.push(arr[window_[0]]);
     } 
     return result;
-  };
+};
   
-  let array0 = [-4, 2, -5, 3, 6]
-  console.log("Array = " + array0)
-  console.log("Max = " + ffindMaxSlidingWindow(array0, 3))
+let array0 = [-4, 2, -5, 3, 6]
+console.log("Array = " + array0)
+console.log("Max = " + findMaxSlidingWindow(array0, 3))
 
 //   let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //   console.log("Array = " + array);
-//   console.log("Max = " + ffindMaxSlidingWindow(array, 3));
+//   console.log("Max = " + findMaxSlidingWindow(array, 3));
   
 //   let array1 = [10, 6, 9, -3, 23, -1, 34, 56, 67, -1, -4, -8, -2, 9, 10, 34, 67]  
 //   console.log("Array = " + array1);
-//   console.log("Max = " + ffindMaxSlidingWindow(array1, 3));
+//   console.log("Max = " + findMaxSlidingWindow(array1, 3));
