@@ -39,3 +39,4 @@
 | 30. | `Array` | [LeetCode](https://leetcode.com/problems/two-sum/)   | [Find Pair With Given Sum in an Array](Arrays/Find-Pair-With-Given-Sum-in-an-Array.js) | [Find Pair With Given Sum in an Array 2](Arrays/Find-Pair-With-Given-Sum-in-an-Array-2.js)  | |
 | 31. | `Array` |  | [Equal Subset Sum Partition](Arrays/Equal-Subset-Sum-Partition.js) |  | [Equal Subset Sum Partition BottomUp DP](Arrays/Equal-Subset-Sum-Partition-BottomUp-DP.js) |
 | 32. | `Recursion` |  | [Find the Greatest Common Divisor](Recursion/Find-the-Greatest-Common-Divisor.js) |  |  |
+| 33. | `Recursion` |  | [Convert Decimal Number to Binary Number Iter](Recursion/Convert-Decimal-Number-to-Binary-Number-Iter.js) | [Convert Decimal Number to Binary Number](Recursion/Convert-Decimal-Number-to-Binary-Number.js) |  |
