@@ -4,6 +4,19 @@
  */
 /**
  * 
+ * Closing parentheses match opening parentheses in the reverse order of their appearance, 
+ * meaning that they match from the inside out. This is a clue that recursion can be used
+ * 
+ * Initialize
+ * startIdx, currentIdx
+ * 
+ * startIdx: traverses the whole array. In each recursive call, it moves to the next element
+ *          tells if reached to end of the arr
+ * currentIdx: examines if each closing parenthesis has an opening
+ *             If closing parenthesis found, decrease by 1
+ *             If opening found, increase by 1
+ *             If currentIdx !== 0 at the end of traversal, return false
+ * 
  */
 
 function balanced(arr, startIdx=0, currentIdx=0) {
