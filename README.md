@@ -41,3 +41,4 @@
 | 32. | `Recursion` |  | [Find the Greatest Common Divisor](Recursion/Find-the-Greatest-Common-Divisor.js) |  |  |
 | 33. | `Recursion` |  | [Convert Decimal Number to Binary Number Iter](Recursion/Convert-Decimal-Number-to-Binary-Number-Iter.js) | [Convert Decimal Number to Binary Number](Recursion/Convert-Decimal-Number-to-Binary-Number.js) |  |
 | 34. | `Recursion` |  | [Check Palindrome](Recursion/Check-Palindrome.js) |  |  |
+| 35. | `Recursion` |  | [Balance Parenthesis](Recursion/Balance-Parenthesis.js) |  |  |
