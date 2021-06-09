@@ -9,6 +9,10 @@
  * arr = [21,60]
  */
 /**
+ * Traverse the array with two pointers
+ * one pointer starts from beginnig and the other from the end
+ * Keep Incrementing first pointer and decrementing other until sum is found or entire array is traversed
+ * 
  * Runtime: Linear O(n): Traversing the array once in worst case
  * Memory: Constant O(2)
  */
