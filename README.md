@@ -43,3 +43,4 @@
 | 34. | `Recursion` |  | [Check Palindrome](Recursion/Check-Palindrome.js) |  |  |
 | 35. | `Recursion` |  | [Balance Parenthesis](Recursion/Balance-Parenthesis.js) |  |  |
 | 36. | `Recursion` |  | [Reverse a Stack](Recursion/Reverse-a-Stack.js) |  |  |
+| 37. | `Array` |  | [Merge Two Sorted Arrays](Arrays/Merge-Two-Sorted-Arrays.js) |  |  |
