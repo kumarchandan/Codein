@@ -46,3 +46,4 @@
 | 37. | `Array` |  | [Merge Two Sorted Arrays](Arrays/Merge-Two-Sorted-Arrays.js) |  |  |
 | 38. | `Array` |  | [Find Two Numbers that Add up to VALUE](Arrays/Find-Two-Numbers-that-Add-up-to-VALUE.js) |  |  |
 | 39. | `Array` |  | [Array of Products of All Elements O(n^2)](Arrays/Array-of-Products-of-All-Elements-O(n^2).js) | [Array of Products of All Elements O(n)](Arrays/Array-of-Products-of-All-Elements-O(n).js)  |  |
+| 40. | `Array` |  | [Find First Unique Integer in an Array](Arrays/Find-First-Unique-Integer-in-an-Array.js) |  |  |
