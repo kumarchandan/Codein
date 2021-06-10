@@ -45,3 +45,4 @@
 | 36. | `Recursion` |  | [Reverse a Stack](Recursion/Reverse-a-Stack.js) |  |  |
 | 37. | `Array` |  | [Merge Two Sorted Arrays](Arrays/Merge-Two-Sorted-Arrays.js) |  |  |
 | 38. | `Array` |  | [Find Two Numbers that Add up to VALUE](Arrays/Find-Two-Numbers-that-Add-up-to-VALUE.js) |  |  |
+| 39. | `Array` |  | [Array of Products of All Elements O(n^2)](Arrays/Array-of-Products-of-All-Elements-O(n^2).js) | [Array of Products of All Elements O(n)](Arrays/Array-of-Products-of-All-Elements-O(n).js)  |  |
