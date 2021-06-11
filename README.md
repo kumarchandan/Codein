@@ -49,3 +49,4 @@
 | 40. | `Array` |  | [Find First Unique Integer in an Array](Arrays/Find-First-Unique-Integer-in-an-Array.js) |  |  |
 | 41. | `Array` |  | [Rearrange Positive & Negative Values O(n*m)](Arrays/Rearrange-Positive-&-Negative-Values-O(n*m).js) | [Rearrange Positive & Negative Values O(n)](Arrays/Rearrange-Positive-&-Negative-Values-O(n).js)  |  |
 | 42. | `Array` |  | [Rearrange Sorted Array in Max Min Form](Arrays/Rearrange-Sorted-Array-in-Max-Min-Form.js) |  |  |
+| 43. | `Array` |  | [Maximum Sum Subarray Indices](Arrays/Maximum-Sum-Subarray-Indices.js) |  |  |
