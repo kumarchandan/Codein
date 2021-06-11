@@ -48,3 +48,4 @@
 | 39. | `Array` |  | [Array of Products of All Elements O(n^2)](Arrays/Array-of-Products-of-All-Elements-O(n^2).js) | [Array of Products of All Elements O(n)](Arrays/Array-of-Products-of-All-Elements-O(n).js)  |  |
 | 40. | `Array` |  | [Find First Unique Integer in an Array](Arrays/Find-First-Unique-Integer-in-an-Array.js) |  |  |
 | 41. | `Array` |  | [Rearrange Positive & Negative Values O(n*m)](Arrays/Rearrange-Positive-&-Negative-Values-O(n*m).js) | [Rearrange Positive & Negative Values O(n)](Arrays/Rearrange-Positive-&-Negative-Values-O(n).js)  |  |
+| 42. | `Array` |  | [Rearrange Sorted Array in Max Min Form](Arrays/Rearrange-Sorted-Array-in-Max-Min-Form.js) |  |  |
