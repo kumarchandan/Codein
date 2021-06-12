@@ -19,7 +19,7 @@
  *  writeIndex: Stops where 0 is found
  * 
  * Steps:
- *  Traverse the array from back with readIndex and writeIndex until both of them reaches -1
+ *  Traverse the array from BACK with readIndex and writeIndex until both of them reaches -1
  *   If readIndex finds 0, skip
  *   If readIndex finds non-0, Update it's value at writeIndex, decrement writeIndex
  *   decrement readIndex
