@@ -50,3 +50,4 @@
 | 41. | `Array` |  | [Rearrange Positive & Negative Values O(n*m)](Arrays/Rearrange-Positive-&-Negative-Values-O(n*m).js) | [Rearrange Positive & Negative Values O(n)](Arrays/Rearrange-Positive-&-Negative-Values-O(n).js)  |  |
 | 42. | `Array` |  | [Rearrange Sorted Array in Max Min Form](Arrays/Rearrange-Sorted-Array-in-Max-Min-Form.js) |  |  |
 | 43. | `Array` |  | [Maximum Sum Subarray Indices](Arrays/Maximum-Sum-Subarray-Indices.js) |  |  |
+| 44. | `LinkedList` |  | [Insertion in LinkedList (At Head, At End, After a Node)](LinkedList/SinglyLinkedList.java) |  |  |
