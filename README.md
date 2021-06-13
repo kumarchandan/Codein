@@ -51,3 +51,4 @@
 | 42. | `Array` |  | [Rearrange Sorted Array in Max Min Form](Arrays/Rearrange-Sorted-Array-in-Max-Min-Form.js) |  |  |
 | 43. | `Array` |  | [Maximum Sum Subarray Indices](Arrays/Maximum-Sum-Subarray-Indices.js) |  |  |
 | 44. | `LinkedList` |  | [Insertion in LinkedList (At Head, At End, After a Node)](LinkedList/SinglyLinkedList.java) |  |  |
+| 45. | `LinkedList` |  | [Search and Deletion (Delete at Head, Delete by Value) in LinkedList](LinkedList/SinglyLinkedList.java) |  |  |

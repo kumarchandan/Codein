@@ -66,7 +66,7 @@ public class SinglyLinkedList<T> {
         }
         // Not found, return
         if (prevNode == null) {
-            System.out.println("Data not found in the list!");
+            System.out.println("Previous data not found!");
             return;
         }
         // Found, Re-link
@@ -77,6 +77,60 @@ public class SinglyLinkedList<T> {
         prevNode.nextNode = newNode;
         newNode.nextNode = temp;
         size++;
+    }
+
+    // O(n)
+    public boolean search(T data) {
+        if (isEmpty() == true) {
+            return false;
+        }
+
+        Node temp = headNode;
+        while (temp.nextNode != null) {
+            if (temp.data.equals(data)) {
+                return true;
+            }
+            temp = temp.nextNode;
+        }
+        return false; //value not found
+    }
+
+    public void deleteAtHead() {
+        //
+        if (isEmpty() == true) {
+            return;
+        }
+        //
+        headNode = headNode.nextNode;
+        size--;
+    }
+
+    public void deleteByValue(T data) {
+        // Empty list, return
+        if (isEmpty() == true) {
+          return;
+        }
+  
+        // Not empty, Find the node, Start from head
+        Node currNode = headNode;
+        Node prevNode = null; // previous node starts from null
+
+        if (currNode.data.equals(data)) {
+            // data is at head, so delete from head
+            deleteAtHead();
+            return;
+        }
+
+        // traverse the list searching for the data
+        while (currNode != null) {
+          if (currNode.data.equals(data)) { // Found
+            prevNode.nextNode = currNode.nextNode;
+            size--;
+            return;
+          }
+          prevNode = currNode;
+          currNode = currNode.nextNode;
+        }
     }
 
     public void printList() {
@@ -115,7 +169,10 @@ public class SinglyLinkedList<T> {
 
         oSLL.insertAfter(69, 178);
         oSLL.printList();
+        System.out.println("Look for 67, found?: " + oSLL.search(67));
         System.out.println("Size: " + oSLL.size);
+        oSLL.deleteByValue(12);
+        oSLL.printList();
     }
 }
 
