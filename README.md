@@ -53,3 +53,4 @@
 | 44. | `LinkedList` |  | [Insertion in LinkedList (At Head, At End, After a Node)](LinkedList/SinglyLinkedList.java) |  |  |
 | 45. | `LinkedList` |  | [Search and Deletion (Delete at Head, Delete by Value) in LinkedList](LinkedList/SinglyLinkedList.java) |  |  |
 | 46. | `LinkedList` |  | [Reverse a Linked List](LinkedList/ReverseSinglyLinkedList.java) |  |  |
+| 47. | `LinkedList` |  | [Detect Loop in SLL](LinkedList/DetectLoopSLL.java) |  |  |
