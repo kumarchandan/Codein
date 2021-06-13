@@ -1,6 +1,13 @@
 package LinkedList;
 
 public class SinglyLinkedList<T> {
+    //Node inner class for SLL
+    public class Node {
+        public T data;
+        public Node nextNode;
+
+    }
+    
     public Node headNode;
     public int size;
 
