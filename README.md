@@ -20,10 +20,10 @@
 | 11. | `Array` |  | [Move All Zeros to the Beginning of the Array O(n))](Arrays/Move-All-Zeros-to-the-Beginning-of-the-Array-O(logn).js) | [Move All Zeros to the Beginning of the Array O(n) - 2](Arrays/Move-All-Zeros-to-the-Beginning-of-the-Array-O(logn)-2.js) | |
 | 12. | `Array` |  | [Stock Buy Sell to Maximize Profit O(n))](Arrays/Stock-Buy-Sell-to-Maximize-Profit-O(n).js) | | |
 | 13. | `Array` |  | [Merge an Array With Overlapping Intervals O(n)](Arrays/Merge-an-Array-With-Overlapping-Intervals-O(n).js) | [Merge an Array With Overlapping Intervals O(n) 2](Arrays/Merge-an-Array-With-Overlapping-Intervals-O(n)-2.js) | |
-| 14. | `Queue` |  | [Reversing First k Elements of Queue](Stack-and-Queues/Reversing-First-k-Elements-of-Queue.js) | | |
-| 15. | `Stack` |  | [Implement Stack Using Queues](Stack-and-Queues/Implement-Stack-Using-Queues.js) | [Implement Stack Using Queues 2](Stack-and-Queues/Implement-Stack-Using-Queues-2.js) | |
-| 16. | `Queue` |  | [Implement Queue Using Stacks](Stack-and-Queues/Implement-Queue-Using-Stacks.js) | [Implement Queue Using Stacks 2](Stack-and-Queues/Implement-Queue-Using-Stacks-2.js) | [Implement Queue Using Stacks 3](Stack-and-Queues/Implement-Queue-Using-Stacks-3.js) |
-| 17. | `Stack` |  | [Evaluate Arithmatic Expressions](Stack-and-Queues/Evaluate-Arithmatic-Expressions.js) | [Evaluate Arithmatic Expressions 2](Stack-and-Queues/Evaluate-Arithmatic-Expressions-2.js) | |
+| 14. | `Queue` |  | [Reversing First k Elements of Queue](StackAndQueues/Reversing-First-k-Elements-of-Queue.js) | | |
+| 15. | `Stack` |  | [Implement Stack Using Queues](StackAndQueues/Implement-Stack-Using-Queues.js) | [Implement Stack Using Queues 2](StackAndQueues/Implement-Stack-Using-Queues-2.js) | |
+| 16. | `Queue` |  | [Implement Queue Using Stacks](StackAndQueues/Implement-Queue-Using-Stacks.js) | [Implement Queue Using Stacks 2](StackAndQueues/Implement-Queue-Using-Stacks-2.js) | [Implement Queue Using Stacks 3](StackAndQueues/Implement-Queue-Using-Stacks-3.js) |
+| 17. | `Stack` |  | [Evaluate Arithmatic Expressions](StackAndQueues/Evaluate-Arithmatic-Expressions.js) | [Evaluate Arithmatic Expressions 2](StackAndQueues/Evaluate-Arithmatic-Expressions-2.js) | |
 | 18. | `String` | [LeetCode](https://leetcode.com/accounts/login/?next=/problems/longest-repeating-substring/) | [Longest Common Substring O(3^{m+n})](Strings/Longest-Common-Substring-O(3^{m+n}).js) | [Longest Common Substring O(m*n)](Strings/Longest-Common-Substring-O(m*n).js)  | [Longest Common Substring O(n)](Strings/Longest-Common-Substring-O(n).js) |
 | 19. | `Dynamic Programming` |  | [Fibonacci Numbers O(2^n)](Dynamic-Programming/Fibonacci-Numbers-O(2^n).js)  | [Fibonacci Numbers O(n)](Dynamic-Programming/Fibonacci-Numbers-O(n).js) | |
 | 20. | `String` |  | [Find Common Substring Occurence O(n*m)](Strings/Find-Common-Substring-Occurence-O(n*m).js) |   |  |
@@ -54,4 +54,4 @@
 | 45. | `LinkedList` |  | [Search and Deletion (Delete at Head, Delete by Value) in LinkedList](LinkedList/SinglyLinkedList.java) |  |  |
 | 46. | `LinkedList` |  | [Reverse a Linked List](LinkedList/ReverseSinglyLinkedList.java) |  |  |
 | 47. | `LinkedList` |  | [Detect Loop in SLL](LinkedList/DetectLoopSLL.java) |  |  |
-| 48. | `Queue` |  | [Generate Binary Numbers from 1 to n using Queue](Stack-and-Queues/GenerateBinaryNoFrom1ToN.java) |  |  |
+| 48. | `Queue` |  | [Generate Binary Numbers from 1 to n using Queue](StackAndQueues/GenerateBinaryNoFrom1ToN.java) |  |  |

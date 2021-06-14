@@ -1,4 +1,4 @@
-package LinkedList;
+package StackAndQueues;
 
 public class Stack<V> {
     private int maxSize;

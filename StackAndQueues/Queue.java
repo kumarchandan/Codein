@@ -1,4 +1,4 @@
-package LinkedList;
+package StackAndQueues;
 
 public class Queue<V> {
     private V[] arr;

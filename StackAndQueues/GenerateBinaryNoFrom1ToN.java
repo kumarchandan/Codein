@@ -1,4 +1,4 @@
-package LinkedList;
+package StackAndQueues;
 /**
  * Can you generate binary numbers from 1 to any given number "n" using a Queue?
  * 
