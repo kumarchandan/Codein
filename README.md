@@ -54,3 +54,4 @@
 | 45. | `LinkedList` |  | [Search and Deletion (Delete at Head, Delete by Value) in LinkedList](LinkedList/SinglyLinkedList.java) |  |  |
 | 46. | `LinkedList` |  | [Reverse a Linked List](LinkedList/ReverseSinglyLinkedList.java) |  |  |
 | 47. | `LinkedList` |  | [Detect Loop in SLL](LinkedList/DetectLoopSLL.java) |  |  |
+| 48. | `Queue` |  | [Generate Binary Numbers from 1 to n using Queue](Stack-and-Queues/GenerateBinaryNoFrom1ToN.java) |  |  |
