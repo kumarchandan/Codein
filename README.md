@@ -59,3 +59,4 @@
 | 50. | `Stack` |  | [Sort a Stack](StackAndQueues/SortStack.java) |  |  |
 | 51. | `Stack` |  | [Evaluate a Postfix Expression](StackAndQueues/EvaluatePostfixExpressionUsingStack.java) |  |  |
 | 52. | `Stack` |  | [Next Greater Elements](StackAndQueues/NextGreaterElement.java) |  |  |
+| 53. | `Stack` |  | [Balanced Parenthesis using Stack](StackAndQueues/BalancedParenthesis.java) |  |  |
