@@ -7,6 +7,11 @@ package StackAndQueues;
 // and after complete traversal of string exp, if there's any opening parentheses left
 // in stack then also return false.
 // At the end return true if you haven't encountered any of the above false conditions.
+
+/**
+ * Runtime: O(n) Traversing the string once
+ * Memory: O(n) Stack created of size of the string
+ */
 public class BalancedParenthesis {
     public static boolean isBalanced(String exp) {
         Stack<Character> stack = new Stack<>(exp.length());
