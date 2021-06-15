@@ -55,3 +55,4 @@
 | 46. | `LinkedList` |  | [Reverse a Linked List](LinkedList/ReverseSinglyLinkedList.java) |  |  |
 | 47. | `LinkedList` |  | [Detect Loop in SLL](LinkedList/DetectLoopSLL.java) |  |  |
 | 48. | `Queue` |  | [Generate Binary Numbers from 1 to n using Queue](StackAndQueues/GenerateBinaryNoFrom1ToN.java) |  |  |
+| 49. | `Stack` |  | [Two Stacks using one array](StackAndQueues/TwoStacks.java) |  |  |
