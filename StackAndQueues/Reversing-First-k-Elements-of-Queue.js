@@ -16,7 +16,8 @@
 
 /**
  * Runtime Complexity: O(n)
- * Overall, kk elements are dequeued, pushed to the stack, popped from it, and then enqueued.
+ * 
+ * Overall, k elements are dequeued, pushed to the stack, popped from it, and then enqueued.
  * Additionally, n−k elements are dequeued and enqueued to the queue. On the assumption that 
  * each push, pop, enqueue or dequeue operation takes constant time, the time complexity of this 
  * function is O(n) as all nn elements have to be processed with constant-time​ operations.
