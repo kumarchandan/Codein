@@ -60,3 +60,4 @@
 | 51. | `Stack` |  | [Evaluate a Postfix Expression](StackAndQueues/EvaluatePostfixExpressionUsingStack.java) |  |  |
 | 52. | `Stack` |  | [Next Greater Elements](StackAndQueues/NextGreaterElement.java) |  |  |
 | 53. | `Stack` |  | [Balanced Parenthesis using Stack](StackAndQueues/BalancedParenthesis.java) |  |  |
+| 54. | `Stack` |  | [Minimum Value Stack](StackAndQueues/MinStack.java) |  |  |
