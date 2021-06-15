@@ -18,7 +18,7 @@ public class EvaluatePostfixExpressionUsingStack {
     public static int evaluatePostfix(String str) {
         int result = Integer.MIN_VALUE;
 
-        Stack<Integer> stack = new Stack<>(20);
+        Stack<Integer> stack = new Stack<>(str.length());
 
         for (int i = 0; i < str.length(); i++) {
             Character ch = str.charAt(i);
