@@ -58,3 +58,4 @@
 | 49. | `Stack` |  | [Two Stacks using one array](StackAndQueues/TwoStacks.java) |  |  |
 | 50. | `Stack` |  | [Sort a Stack](StackAndQueues/SortStack.java) |  |  |
 | 51. | `Stack` |  | [Evaluate a Postfix Expression](StackAndQueues/EvaluatePostfixExpressionUsingStack.java) |  |  |
+| 52. | `Stack` |  | [Next Greater Elements](StackAndQueues/NextGreaterElement.java) |  |  |
