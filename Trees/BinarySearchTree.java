@@ -15,7 +15,7 @@ public class BinarySearchTree {
         return root == null;
     }
 
-    // Iterative approach
+    // Insert - Iterative approach
     // Runtime: O(h), h: height of tree, If tree is skewed, worst case O(n)
     public boolean insert(int value) {
 
@@ -25,7 +25,7 @@ public class BinarySearchTree {
             return true;
         }
 
-        // Traverse: Starting from root
+        // Traverse: Start from root
         Node currentNode = root;
 
         while (currentNode != null) {
@@ -53,6 +53,12 @@ public class BinarySearchTree {
         return false;
     }
 
+    // Insert - Recursive approach
+    public boolean insert2(int value) {
+        root = insertRecursive(this.root, value);
+        return true;
+    }
+
     // Runtime: O(h), h: height of tree, If tree is skewed, worst case O(n)
     public Node insertRecursive(Node currentNode, int value) {
         // Base case
@@ -77,10 +83,54 @@ public class BinarySearchTree {
         return currentNode;
     }
 
-    // Recursive approach
-    public boolean insert2(int value) {
-        root = insertRecursive(this.root, value);
-        return true;
+    // Search - Iterative
+    // Runtime - O(log n) on average, in a balanced tree, Skewed tree - O(n)
+    public Node search(int value) {
+        
+        if (isEmpty()) {
+            return null;
+        }
+
+        Node currentNode = root;
+
+        while (currentNode != null) {
+            if (value == currentNode.getData()) {
+                return currentNode;
+            }
+
+            if (value < currentNode.getData()) {
+                currentNode = currentNode.getLeftChild();
+            } else if (value > currentNode.getData()) {
+                currentNode = currentNode.getRightChild();
+            }
+        }
+        System.out.println("Node not found!");
+        return null;
+    }
+
+    // Search - Recursive
+    // Runtime - O(log n) on average, in a balanced tree, Skewed tree - O(n)
+    public Node search2(int value) {
+        if (isEmpty()) {
+            return null;
+        }
+        return searchRecursive(this.root, value);
+    }
+
+    public Node searchRecursive(Node currentNode, int value) {
+        // Base case
+        // If currentNode is null or value is found, return node
+        if (currentNode == null || currentNode.getData() == value) {
+            return currentNode;
+        }
+
+        // Recursive case
+        // If value is less than node's data, look into left subtree
+        if (value < currentNode.getData()) {
+            return searchRecursive(currentNode.getLeftChild(), value);
+        } else { // If value is greater than node's data, look into right subtree
+            return searchRecursive(currentNode.getRightChild(), value);
+        }
     }
 
     public void printTree(Node current) {
@@ -119,6 +169,30 @@ public class BinarySearchTree {
 		bsT2.insert2(14);
 
         bsT2.printTree(bsT2.getRoot());
+
+        // Search Iterative
+        Node temp = bsT.search(5);
+		if (temp != null) {
+			System.out.println("\n" + temp.getData() + " found in Tree !");
+		}
+		temp = bsT.search(51);
+		if (temp != null) {
+			System.out.println("\n" + temp.getData() + " found in Tree !");
+		}
+
+        // Search Recursive
+        Node temp2 = bsT.search2(5);
+		if (temp2 != null) {
+			System.out.println("\n" + temp2.getData() + " found in Tree (Recur) !");
+		} else {
+            System.out.println("\n Not found in Tree !");
+        }
+		temp2 = bsT.search2(51);
+		if (temp2 != null) {
+			System.out.println("\n" + temp2.getData() + " found in Tree !");
+		} else {
+            System.out.println("\n Not found in Tree ! (Recur)");
+        }
     }
 
 }
