@@ -63,3 +63,4 @@
 | 54. | `Stack` |  | [Minimum Value Stack](StackAndQueues/MinStack.java) |  |  |
 | 55. | `Graph` |  | [Breadth First Search Traversal Using Queue](Graphs/BreadthFirstSearchTraversalUsingQueue.java) |  |  |
 | 56. | `Graph` |  | [Depth First Search Traversal Using Stack](Graphs/DepthFirstSearchTraversalUsingStack.java) |  |  |
+| 57. | `Graph` |  | [Detect Cycle In A Graph](Graphs/DetectCycleInGraph.java) |  |  |
