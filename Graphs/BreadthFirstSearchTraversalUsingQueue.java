@@ -7,58 +7,56 @@ import StackAndQueues.Queue;
 class BreadthFirstSearchTraversalUsingQueue {
 
     public static String bfs(Graph g){
-        
         String result = "";
-        // Checking if the graph has no vertices
+        // Check if graph has no vertices
         if (g.vertices < 1) {
             return result;
         }
 
-        // Boolean Array to hold the history of visited nodes (by default-false)
+        // Boolean array to hold the history of visited nodes
         boolean[] visited = new boolean[g.vertices];
-    
-        for(int i = 0; i < g.vertices; i++) {
-            // Checking whether the node is visited or not 
-            if(!visited[i]) {
-                result = result + bfsVisit(g, i, visited); 
+
+        for (int i = 0; i < g.vertices; i++) {
+            // Check whether the node is visited or not
+            if (!visited[i]) {
+                result += bfsVisit(g, i, visited);
             }
         }
         return result;
     }
 
-    public static String bfsVisit(Graph g, int source, boolean[] visited) {
-        
+    public static String bfsVisit(Graph g, int sourceValue, boolean[] visited) {
         String result = "";
 
-        // Create Queue for Breadth First Traversal and enqueue source in it
-        Queue<Integer> queue = new Queue<>(g.vertices);
+        // Create Queue for Breadth first traversal and to enqueue sourceValue in it
+        Queue<Integer> queue = new Queue<Integer>(g.vertices);
+        // enqueue this sourceValue and mark it visited
+        queue.enqueue(sourceValue);
+        visited[sourceValue] = true;
 
-        queue.enqueue(source);
-        visited[source] = true;
-
-        // Traverse while queue is not empty
+        // Traverse while queue is not empty, dequeue elements will be added to 'result'
         while (!queue.isEmpty()) {
-
             // Dequeue a vertex/node from queue and add it to result
-            int current_node = queue.dequeue();
+            int currentNode = queue.dequeue();
+            result += currentNode;
 
-            result += String.valueOf(current_node);
-
-            // Get adjacent vertices to the current_node from the array,
-            // and if they are not already visited then enqueue them in the Queue
+            // Get adjacent vertices to the currentNode from the array, and
+            // if they are not visited, enqueue them
             DoublyLinkedList<Integer>.Node temp = null;
-            if (g.adjacencyList[current_node] != null) {
-                temp = g.adjacencyList[current_node].headNode;
+            if (g.adjacencyList[currentNode] != null) {
+                temp = g.adjacencyList[currentNode].headNode;
             }
-
+            
+            // MAIN LOGIC of BFS, enqueue and mark visited all nextNodes of source vertex first
+            // e.g. With source -> 0, 1 and 4 will be visited first, then move to next source in adjacency list
             while (temp != null) {
                 if (!visited[temp.data]) {
                     queue.enqueue(temp.data);
-                    visited[temp.data] = true; // Visit the current Node
+                    visited[temp.data] = true; // visited the current node
                 }
                 temp = temp.nextNode;
             }
-        }// end of while
+        }
         return result;
     }
     public static void main(String args[]) {
