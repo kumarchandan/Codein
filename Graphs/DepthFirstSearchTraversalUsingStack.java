@@ -2,6 +2,9 @@ package Graphs;
 
 import StackAndQueues.Stack;
 
+/**
+ * Runtime: O(V + E) :  Algorithm traverses the whole graph once
+ */
 class DepthFirstSearchTraversalUsingStack {
 
     public static String dfs(Graph g) {

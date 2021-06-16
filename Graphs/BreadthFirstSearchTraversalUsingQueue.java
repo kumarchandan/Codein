@@ -1,7 +1,9 @@
 package Graphs;
 import StackAndQueues.Queue;
 
-
+/**
+ * Runtime: O(V + E) : Algorithm traverses the whole graph once
+ */
 class BreadthFirstSearchTraversalUsingQueue {
 
     public static String bfs(Graph g){
