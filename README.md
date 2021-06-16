@@ -64,3 +64,4 @@
 | 55. | `Graph` |  | [Breadth First Search Traversal Using Queue](Graphs/BreadthFirstSearchTraversalUsingQueue.java) |  |  |
 | 56. | `Graph` |  | [Depth First Search Traversal Using Stack](Graphs/DepthFirstSearchTraversalUsingStack.java) |  |  |
 | 57. | `Graph` |  | [Detect Cycle In A Graph](Graphs/DetectCycleInGraph.java) |  |  |
+| 58. | `Tree` |  | [Insertion in Binary Search Tree (BST)](Trees/BinarySearchTree.java) |  |  |
