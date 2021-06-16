@@ -61,5 +61,5 @@
 | 52. | `Stack` |  | [Next Greater Elements](StackAndQueues/NextGreaterElement.java) |  |  |
 | 53. | `Stack` |  | [Balanced Parenthesis using Stack](StackAndQueues/BalancedParenthesis.java) |  |  |
 | 54. | `Stack` |  | [Minimum Value Stack](StackAndQueues/MinStack.java) |  |  |
-| 55. | `Stack` |  | [Breadth First Search Traversal Using Queue](Graphs/BreadthFirstSearchTraversalUsingQueue.java) |  |  |
-| 56. | `Stack` |  | [Depth First Search Traversal Using Stack](Graphs/DepthFirstSearchTraversalUsingStack.java) |  |  |
+| 55. | `Graph` |  | [Breadth First Search Traversal Using Queue](Graphs/BreadthFirstSearchTraversalUsingQueue.java) |  |  |
+| 56. | `Graph` |  | [Depth First Search Traversal Using Stack](Graphs/DepthFirstSearchTraversalUsingStack.java) |  |  |
