@@ -15,8 +15,10 @@ public class BinarySearchTree {
         return root == null;
     }
 
-    // Insert - Iterative approach
-    // Runtime: O(h), h: height of tree, If tree is skewed, worst case O(n)
+    /**
+     * Insert - Iterative approach
+     * Runtime: O(h), h: height of tree, If tree is skewed, worst case O(n)
+     */
     public boolean insert(int value) {
 
         // If tree is empty, initialize root
@@ -53,13 +55,17 @@ public class BinarySearchTree {
         return false;
     }
 
-    // Insert - Recursive approach
+    /**
+     * Insert - Recursive approach
+     */
     public boolean insert2(int value) {
         root = insertRecursive(this.root, value);
         return true;
     }
 
-    // Runtime: O(h), h: height of tree, If tree is skewed, worst case O(n)
+    /**
+     * Runtime: O(h), h: height of tree, If tree is skewed, worst case O(n)
+     */
     public Node insertRecursive(Node currentNode, int value) {
         // Base case
         if (currentNode == null) {
@@ -67,14 +73,18 @@ public class BinarySearchTree {
         }
         // Recursive case
         if (value < currentNode.getData()) {
-            // Iterate left sub-tree
-            // When finally reached to a leftmost node with null value, Base case will create new Node obj and return
-            // Set that value as leftChild of currentNode
+            /**
+             * Iterate left sub-tree
+             * When finally reached to a leftmost node with null value, Base case will create new Node obj and return
+             * Set that value as leftChild of currentNode
+             */
             currentNode.setLeftChild(insertRecursive(currentNode.getLeftChild(), value));
         } else if (value > currentNode.getData()) {
-            // Iterate right sub-tree
-            // When finally reached to a rightmost node with null value, Base case will create new Node obj and return
-            // Set that value as rightChild of currentNode
+            /**
+             * Iterate right sub-tree
+             * When finally reached to a rightmost node with null value, Base case will create new Node obj and return
+             * Set that value as rightChild of currentNode
+             */
             currentNode.setRightChild(insertRecursive(currentNode.getRightChild(), value));
         } else {
             // Value already exists
@@ -83,8 +93,10 @@ public class BinarySearchTree {
         return currentNode;
     }
 
-    // Search - Iterative
-    // Runtime - O(log n) on average, in a balanced tree, Skewed tree - O(n)
+    /**
+     * Search - Iterative
+     * Runtime - O(log n) on average, in a balanced tree, Skewed tree - O(n)
+     */
     public Node search(int value) {
         
         if (isEmpty()) {
@@ -108,8 +120,10 @@ public class BinarySearchTree {
         return null;
     }
 
-    // Search - Recursive
-    // Runtime - O(log n) on average, in a balanced tree, Skewed tree - O(n)
+    /**
+     * Search - Iterative
+     * Runtime - O(log n) on average, in a balanced tree, Skewed tree - O(n)
+     */
     public Node search2(int value) {
         if (isEmpty()) {
             return null;
