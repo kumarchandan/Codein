@@ -9,7 +9,8 @@ package Trees;
 public class FindMinBST {
 
     /**
-     * Runtime: O(log n) : Always traverses half of the tree (left subtree)
+     * Runtime: O(h) : where h is height of the tree
+     *          O(n) : worst case - skewed tree
      */
     public static int findMin(Node root) {
         Node parentNode = null;
@@ -21,6 +22,20 @@ public class FindMinBST {
 		}
 		return parentNode.getData();
 	}
+
+    /**
+     * Runtime: O(h) : where h is height of the tree
+     *          O(n) : worst case - skewed tree
+     */
+    public static int findMin2(Node root) {
+        if (root == null) {
+            return -1;
+        } else if (root.getLeftChild() == null) {
+            return root.getData(); // Leftmost node
+        } else { // Recursive case
+            return findMin2(root.getLeftChild());
+        }
+    }
 
     public static void main(String[] args) {
         BinarySearchTree bsT = new BinarySearchTree();
@@ -35,5 +50,7 @@ public class FindMinBST {
         bsT.insert(14);
 
         System.out.println(findMin(bsT.getRoot()));
+
+        System.out.println(findMin2(bsT.getRoot()));
     }
 }
