@@ -44,10 +44,12 @@ public class TraverseBST {
 		bst.insert(12);
 
         System.out.println("\nPreorder Traversal: ");
-        TraverseBST.preOrderTraversal(bst.getRoot());
+        TraverseBST.preOrderTraversal(bst.getRoot()); // 6, 4, 2, 5, 9, 8, 12
+
         System.out.println("\nInorder Traversal: ");
-        TraverseBST.inOrderTraversal(bst.getRoot());
+        TraverseBST.inOrderTraversal(bst.getRoot()); // 2, 4, 5, 6, 8, 9, 12
+        
         System.out.println("\nPostorder Traversal: ");
-        TraverseBST.postOrderTraversal(bst.getRoot());
+        TraverseBST.postOrderTraversal(bst.getRoot()); // 2, 5, 4, 8, 12, 9, 6
     }
 }

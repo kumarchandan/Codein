@@ -69,3 +69,4 @@
 | 60. | `Tree` |  | [BST Traversal (Pre-order, In-order, Post-order)](Trees/TraverseBST.java) |  |  |
 | 61. | `Tree` |  | [Find the Minimum Value in a Binary Search Tree (Iterative & Recursive)](Trees/FindMinBST.java) |  |  |
 | 62. | `Tree` |  | [Find kth Maximum Value in a Binary Search Tree](Trees/FindKthMaxBST.java) |  |  |
+| 63. | `Tree` |  | [Find Ancestors of a Given Node in a Binary Tree](Trees/FindAncestors.java) |  |  |
