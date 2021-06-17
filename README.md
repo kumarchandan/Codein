@@ -67,3 +67,4 @@
 | 58. | `Tree` |  | [Insertion in Binary Search Tree (BST) Iterative & Recursive](Trees/BinarySearchTree.java) |  |  |
 | 59. | `Tree` |  | [Search in Binary Search Tree (BST) Iterative & Recursive](Trees/BinarySearchTree.java) |  |  |
 | 60. | `Tree` |  | [BST Traversal (Pre-order, In-order, Post-order)](Trees/TraverseBST.java) |  |  |
+| 61. | `Tree` |  | [Find the Minimum Value in a Binary Search Tree](Trees/FindMinBST.java) |  |  |
