@@ -13,7 +13,7 @@ package Trees;
  * Runtime: O(h) : where h is height of the tree
  *          O(n) : worst case - skewed tree
  */
-public class FindAncestors {
+public class FindAncestorsBST {
     
     public static String findAncestors(Node root, int k) {
         String result = "";
