@@ -19,17 +19,17 @@ public class TraverseBST {
         if (root == null) {
             return;
         }
-        preOrderTraversal(root.getLeftChild());
+        inOrderTraversal(root.getLeftChild());
         System.out.print(root.getData() + ", ");
-        preOrderTraversal(root.getRightChild());
+        inOrderTraversal(root.getRightChild());
     }
 
     public static void postOrderTraversal(Node root) { // Left-Right-Root
         if (root == null) {
             return;
         }
-        preOrderTraversal(root.getLeftChild());
-        preOrderTraversal(root.getRightChild());
+        postOrderTraversal(root.getLeftChild());
+        postOrderTraversal(root.getRightChild());
         System.out.print(root.getData() + ", ");
     }
 
