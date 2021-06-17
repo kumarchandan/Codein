@@ -71,3 +71,4 @@
 | 62. | `Tree` |  | [Find kth Maximum Value in a Binary Search Tree](Trees/FindKthMaxBST.java) |  |  |
 | 63. | `Tree` |  | [Find Ancestors of a Given Node in a Binary Tree](Trees/FindAncestorsBST.java) |  |  |
 | 64. | `Tree` |  | [Find the Height of a Binary Search Tree](Trees/FindHeightBST.java) |  |  |
+| 65. | `Tree` |  | [Find Nodes at "k" Distance from the Root (BST)](Trees/FindNodesAtKDistanceBST.java) |  |  |
