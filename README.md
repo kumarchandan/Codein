@@ -73,3 +73,4 @@
 | 64. | `Tree` |  | [Find the Height of a Binary Search Tree](Trees/FindHeightBST.java) |  |  |
 | 65. | `Tree` |  | [Find Nodes at "k" Distance from the Root (BST)](Trees/FindNodesAtKDistanceBST.java) |  |  |
 | 66. | `Hash Table` |  | [Find whether an array is a subset of another array](HashTables/HashTable.java) |  |  |
+| 67. | `Hash Table` |  | [Check if the given arrays are disjoint](HashTables/CheckArraysDisjoint.java) |  |  |
