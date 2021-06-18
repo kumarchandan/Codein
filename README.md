@@ -76,3 +76,4 @@
 | 67. | `Hash Table` |  | [Check if the given arrays are disjoint](HashTables/CheckArraysDisjoint.java) |  |  |
 | 68. | `Hash Table` |  | [Find symmetric pairs in an Array](HashTables/FindSymmetricPairArrays.java) |  |  |
 | 69. | `Hash Table` |  | [Trace the complete path of a journey](HashTables/TracePathOfJourney.java) |  |  |
+| 70. | `Hash Table` |  | [Find Two Numbers that Add up to "n"](HashTables/FindTwoNumbersSumInArray.java) |  |  |
