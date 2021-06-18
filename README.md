@@ -75,3 +75,4 @@
 | 66. | `Hash Table` |  | [Find whether an array is a subset of another array](HashTables/HashTable.java) |  |  |
 | 67. | `Hash Table` |  | [Check if the given arrays are disjoint](HashTables/CheckArraysDisjoint.java) |  |  |
 | 68. | `Hash Table` |  | [Find symmetric pairs in an Array](HashTables/FindSymmetricPairArrays.java) |  |  |
+| 69. | `Hash Table` |  | [Trace the complete path of a journey](HashTables/TracePathOfJourney.java) |  |  |
