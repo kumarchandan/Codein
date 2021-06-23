@@ -5,6 +5,10 @@ package Heaps;
  * Input: [9,4,7,1,-2,6,5]
  * Output: [-2,1,5,9,4,6,7]
  */
+/**
+ * Runtime: O(n)
+ * The time complexity is the same as the complexity for the build heap operation: O(n)
+ */
 public class ConvertMaxToMinHeap {
     
     public static void convertMaxToMin(int[] maxHeap) {
