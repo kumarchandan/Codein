@@ -77,3 +77,4 @@
 | 68. | `Hash Table` |  | [Find symmetric pairs in an Array](HashTables/FindSymmetricPairArrays.java) |  |  |
 | 69. | `Hash Table` |  | [Trace the complete path of a journey](HashTables/TracePathOfJourney.java) |  |  |
 | 70. | `Hash Table` |  | [Find Two Numbers that Add up to "n"](HashTables/FindTwoNumbersSumInArray.java) |  |  |
+| 71. | `Heaps` |  | [Convert a Max-Heap to a Min-Heap](Heaps/ConvertMaxToMinHeap.java) |  |  |
