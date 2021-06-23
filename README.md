@@ -25,11 +25,11 @@
 | 16. | `Queue` |  | [Implement Queue Using Stacks](StackAndQueues/Implement-Queue-Using-Stacks.js) | [Implement Queue Using Stacks 2](StackAndQueues/Implement-Queue-Using-Stacks-2.js) | [Implement Queue Using Stacks 3](StackAndQueues/Implement-Queue-Using-Stacks-3.js) |
 | 17. | `Stack` |  | [Evaluate Arithmatic Expressions](StackAndQueues/Evaluate-Arithmatic-Expressions.js) | [Evaluate Arithmatic Expressions 2](StackAndQueues/Evaluate-Arithmatic-Expressions-2.js) | |
 | 18. | `String` | [LeetCode](https://leetcode.com/accounts/login/?next=/problems/longest-repeating-substring/) | [Longest Common Substring O(3^{m+n})](Strings/Longest-Common-Substring-O(3^{m+n}).js) | [Longest Common Substring O(m*n)](Strings/Longest-Common-Substring-O(m*n).js)  | [Longest Common Substring O(n)](Strings/Longest-Common-Substring-O(n).js) |
-| 19. | `Dynamic Programming` |  | [Fibonacci Numbers O(2^n)](Dynamic-Programming/Fibonacci-Numbers-O(2^n).js)  | [Fibonacci Numbers O(n)](Dynamic-Programming/Fibonacci-Numbers-O(n).js) | |
+| 19. | `Dynamic Programming` |  | [Fibonacci Numbers O(2^n)](DynamicProgramming/Fibonacci-Numbers-O(2^n).js)  | [Fibonacci Numbers O(n)](DynamicProgramming/Fibonacci-Numbers-O(n).js) | |
 | 20. | `String` |  | [Find Common Substring Occurence O(n*m)](Strings/Find-Common-Substring-Occurence-O(n*m).js) |   |  |
-| 21. | `Dynamic Programming` | [LeetCode](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)  | [Largest Sum Subarray O(n)](Dynamic-Programming/Largest-Sum-Subarray-O(n).js)  | | |
-| 22. | `Dynamic Programming` |  | [Find Combinations for Game Scoring Recursive O(n)](Dynamic-Programming/Find-Combinations-for-Game-Scoring-Recursive-O(n).js) | [Find Combinations for Game Scoring O(n)](Dynamic-Programming/Find-Combinations-for-Game-Scoring-O(n).js)  | |
-| 23. | `Dynamic Programming` | [LeetCode](https://leetcode.com/problems/combination-sum-iv/) | [Combination Sum IV](Dynamic-Programming/Combination-Sum-IV.js) |  | |
+| 21. | `Dynamic Programming` | [LeetCode](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)  | [Largest Sum Subarray O(n)](DynamicProgramming/Largest-Sum-Subarray-O(n).js)  | | |
+| 22. | `Dynamic Programming` |  | [Find Combinations for Game Scoring Recursive O(n)](DynamicProgramming/Find-Combinations-for-Game-Scoring-Recursive-O(n).js) | [Find Combinations for Game Scoring O(n)](DynamicProgramming/Find-Combinations-for-Game-Scoring-O(n).js)  | |
+| 23. | `Dynamic Programming` | [LeetCode](https://leetcode.com/problems/combination-sum-iv/) | [Combination Sum IV](DynamicProgramming/Combination-Sum-IV.js) |  | |
 | 24. | `Array` | [LeetCode](https://leetcode.com/problems/smallest-range-i/)  | [Smallest Range I](Arrays/Smallest-Range-I.js) | | |
 | 25. | `Array` | [LeetCode](https://leetcode.com/problems/find-pivot-index/)  | [Find Pivot Index](Arrays/Find-Pivot-Index.js) | [Find Pivot Index 2](Arrays/Find-Pivot-Index-2.js) | |
 | 26. | `Array` | [HackerRank](https://www.hackerrank.com/)  | [Pack Numbers](Arrays/Pack-Numbers.js) | | |
