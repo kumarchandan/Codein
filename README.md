@@ -82,3 +82,4 @@
 | 73. | `Heaps` |  | [Find the k Largest Elements in an Array O(n + klogn)](Heaps/FindKLargestInArray.java) |  |  |
 | 74. | `Trie` |  | [Insertion, Search and Deletion in a Trie](Trie/Trie.java) |  |  |
 | 75. | `Trie` |  | [Find the Total Number of Words in a Trie](Trie/TotalNoOfWordsInTrie.java) |  |  |
+| 76. | `Trie` |  | [Find All the Words in a Trie](Trie/FindAllWordsInTrie.java) |  |  |
