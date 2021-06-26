@@ -1,29 +1,32 @@
 package Trie;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
- * If you are given a Trie, can you return every word it contains in sorted order?
+ * If you are given an array of strings, can you sort its elements using a Trie data structure?
  * 
  * Input:
- * root of a Trie instance storing {"the", "a", "there", "answer", "any", "by", "bye", "their","abc"}
+ * String keys[] = {"the", "a", "there", "answer", "any", "by", "bye", "their","abc"};
  * 
  * Output:
- * "a", "abc","answer","any","by","bye","the","their","there"
- * 
+ * {"a", "abc", "answer", "any", "by", "bye", "the", "their", "there"}
  */
 
 /**
+ * Similar to `FindAllWordsInTrie`, only diff. is that we have to create the trie ourselves.
+ * 
  * Since the children array for each node stores alphabets in alphabetical order, 
  * the tree itself is ordered from top to bottom. All we need to do is make a pre-order 
  * traversal (think of a as the left most child and z as the right most child) and store 
  * the words in a list.
  * 
- * As the algorithm traverses all the nodes, its run time is O(n) where n is the number of nodes in the trie.
+ * Runtime:
+ * We first insert the nodes into the graph and then traverse all the existing nodes.
+ * Hence, the bottleneck worst case time complexity is O(n).
+ * 
  */
-public class FindAllWordsInTrie {
-    
+public class SortElementsOfArray {
+
     // Recursive Function to generate all words
     public static void getWords(TrieNode root, ArrayList<String> resList, int level, char[] charArr) {
 
@@ -45,31 +48,28 @@ public class FindAllWordsInTrie {
             }
         }
     }
-
-    public static ArrayList<String> findWords(TrieNode root) {
+    
+    public static ArrayList<String> sortArray(String []arr) {
+        Trie trie = new Trie();
+        // Build Trie
+        for (int i = 0; i < arr.length; i++) {
+            trie.insert(arr[i]);
+        }
+        
         ArrayList<String> resList = new ArrayList<>();
         char[] charArr = new char[20];
-        getWords(root, resList, 0, charArr);
+
+        getWords(trie.getRoot(), resList, 0, charArr);
         return resList;
     }
 
-    public static void main(String args[]) {
-        // Input keys (use only 'a' through 'z' and lower case)
-        String keys[] = {"the", "a", "there", "answer", "any", "by", "bye", "their","abc"};
-        Trie trie = new Trie();
-    
-        System.out.println("Keys: "+ Arrays.toString(keys));
-    
-        // Construct trie
-        for (int i = 0; i < keys.length ; i++) {
-            trie.insert(keys[i]);
-        }
+    public static void main(String[] args) {
+        String words[] = {"the", "a", "there", "answer", "any", "by", "bye", "their","abc"};
 
-        ArrayList <String> list = findWords(trie.getRoot());
-
-        for(int i = 0; i < list.size(); i++) {
-          System.out.println(list.get(i));
+        ArrayList<String> arrList = SortElementsOfArray.sortArray(words);
+        for (int i = 0; i < arrList.size(); i++) {
+            System.out.println(arrList.get(i));
         }
-    
-      }
+    }
+
 }
