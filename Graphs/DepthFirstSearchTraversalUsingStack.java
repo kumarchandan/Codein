@@ -77,5 +77,23 @@ class DepthFirstSearchTraversalUsingStack {
         System.out.println("Graph2:");
         g2.printGraph();
         System.out.println("DFS traversal of Graph2 : " + dfs(g2));
+
+        /**
+         * Graph2:
+         * >>Adjacency List of Directed Graph<<
+         * |0| => [1] -> [4] -> null
+         * |1| => [2] -> null
+         * |2| => null
+         * |3| => null
+         * |4| => [3] -> null
+         * 
+         *   0
+         * |   |
+         * 1   4
+         * |   |
+         * 2   3
+         * 
+         * DFS traversal of Graph2 : 04312
+         */
   }
 }

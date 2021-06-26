@@ -74,9 +74,28 @@ class BreadthFirstSearchTraversalUsingQueue {
         g2.addEdge(0,1);
         g2.addEdge(0,4);
         g2.addEdge(1,2);
-        g2.addEdge(3,4);
+        // g2.addEdge(3,4);
+        g2.addEdge(4,3);
         System.out.println("Graph2:");
         g2.printGraph();
         System.out.println("BFS traversal of Graph2 : " + bfs(g2));
+
+        /**
+         * Graph2:
+         * >>Adjacency List of Directed Graph<<
+         * |0| => [1] -> [4] -> null
+         * |1| => [2] -> null
+         * |2| => null
+         * |3| => null
+         * |4| => [3] -> null
+         * 
+         *   0
+         * |   |
+         * 1   4
+         * |   |
+         * 2   3
+         * 
+         * BFS traversal of Graph2 : 01423
+         */
   }
 }

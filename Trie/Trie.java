@@ -36,6 +36,10 @@ public class Trie {
         return x - 'a'; // returns diff. based on ASCII value
     }
 
+    public TrieNode getRoot() {
+        return this.root;
+    }
+
     /**
      * Insert a key into the Trie
      * Runtime:
