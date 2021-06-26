@@ -80,3 +80,4 @@
 | 71. | `Heaps` |  | [Convert a Max-Heap to a Min-Heap](Heaps/ConvertMaxToMinHeap.java) |  |  |
 | 72. | `Heaps` |  | [Find the k Smallest Elements in an Array O(n + klogn)](Heaps/FindKSmallestInArray.java) |  |  |
 | 73. | `Heaps` |  | [Find the k Largest Elements in an Array O(n + klogn)](Heaps/FindKLargestInArray.java) |  |  |
+| 74. | `Trie` |  | [Insertion in a Trie](Trie/Trie.java) |  |  |
