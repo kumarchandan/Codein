@@ -84,3 +84,4 @@
 | 75. | `Trie` |  | [Find the Total Number of Words in a Trie](Trie/TotalNoOfWordsInTrie.java) |  |  |
 | 76. | `Trie` |  | [Find All the Words in a Trie](Trie/FindAllWordsInTrie.java) |  |  |
 | 77. | `Trie` |  | [Sort the Elements of an Array using a Trie](Trie/SortElementsOfArray.java) |  |  |
+| 78. | `Trie` |  | [Word Formation from Given Dictionary using Trie](Trie/WordFormationFromDictionary.java) |  |  |
