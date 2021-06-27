@@ -18,20 +18,21 @@ public class FindAvgOfSubArrayOfSizeK {
     
     public static double[] findAverage(int[] arr, int k) {
         double[] res = new double[arr.length - k + 1];
-        double slidingWindowSum = 0;
+        double windowSum = 0;
 
         // Need sliding window of size k
         // Calculate sum of first sliding window
         for (int i = 0; i < k; i++) {
-            slidingWindowSum += arr[i];
+            windowSum += arr[i];
         }
         // Save the first average
-        res[0] = slidingWindowSum / k;
+        res[0] = windowSum / k;
 
-        // Traverse rest of the array and calculate their averages using slidingWindowSum
+        // Traverse rest of the array and calculate their averages using windowSum
+        // Subtract the idx value going out, and Add the idx value coming in the sliding Window
         for (int i = 1; i <= arr.length - k; i++) {
-            slidingWindowSum = slidingWindowSum - arr[i-1] + arr[i + k - 1];
-            res[i] = slidingWindowSum / k;
+            windowSum = windowSum - arr[i-1] + arr[i + k - 1];
+            res[i] = windowSum / k;
         }
 
         return res;
@@ -41,6 +42,7 @@ public class FindAvgOfSubArrayOfSizeK {
         double[] result = new double[arr.length - K + 1];
         double windowSum = 0;
         int windowStart = 0;
+        
         for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
             windowSum += arr[windowEnd]; // add the next element
             // slide the window, we don't need to slide if we've not hit the required window size of 'k'

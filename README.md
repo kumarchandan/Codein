@@ -86,3 +86,4 @@
 | 77. | `Trie` |  | [Sort the Elements of an Array using a Trie](Trie/SortElementsOfArray.java) |  |  |
 | 78. | `Trie` |  | [Word Formation from Given Dictionary using Trie](Trie/WordFormationFromDictionary.java) |  |  |
 | 79. | `Array` | `Sliding Window Pattern`, `Easy`  | [Find the Average of All Contiguous Subarrays of Size ‘K’](CodingPatterns/SlidingWindow/FindAvgOfSubArrayOfSizeK.java) |  |  |
+| 80. | `Array` | `Sliding Window Pattern`, `Easy`  | [Maximum Sum Subarray of Size K](CodingPatterns/SlidingWindow/MaximumSumSubarrayofSizeK.java) |  |  |
