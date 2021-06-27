@@ -5,7 +5,7 @@
 ✨ Summary
 ---
 
-| Day | Tags | Question | Solution 1 | Solution 2 | Solution 3 |
+| Day | Category | Question | Solution 1 | Solution 2 | Solution 3 |
 | --- | -------- | -------- | --------- | --------- | --------- |
 | 1. | `Array` | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) | [Find Maximum in Sliding Window](Arrays/Find-Maximum-in-Sliding-Window.js) | [Find Maximum in Sliding Window Optimized](Arrays/Find-Maximum-in-Sliding-Window-Optimized.js) | |
 | 2. | `Array` | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search a Rotated Array Iterative](Arrays/Search-a-Rotated-Array-Iterative.js) | [Search a Rotated Array Recursive](Arrays/Search-a-Rotated-Array-Recursive.js) | |
