@@ -32,10 +32,14 @@ public class SmallestSubarrayWithGivenSum {
         int minLen = Integer.MAX_VALUE;
         int windowStart = 0;
 
+        /**
+         * windowEnd traverses based on forloop pace
+         * windowStart increments to shrink the window
+         */
         for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
             windowSum += arr[windowEnd]; // Add next element coming to window
             
-            // Shrink the window as small as possible until the 'windowSum' is smaller than 'S'
+            // Shrink the window as small as possible until the 'windowSum' is greater than 'S'
             while(windowSum >= S) {
                 minLen = Math.min(minLen, windowEnd - windowStart + 1);
                 windowSum -= arr[windowStart]; // Subtract the elem going out of window
