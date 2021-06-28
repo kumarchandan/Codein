@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+ * 
  * Given a string, find the length of the longest substring in it with no more than K distinct characters.
  * 
  * Input: String="araaci", K=2

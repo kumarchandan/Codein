@@ -92,3 +92,4 @@
 | 83. | `Array` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/fruit-into-baskets/), `M`  | [Fruits in Baskets](CodingPatterns/SlidingWindow/FruitsIntoBaskets.java) | Similar, `Longest Substring with at most 2 distinct characters` |  |
 | 84. | `String` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/), `M`  | [Longest Substring Without Repeating Characters](CodingPatterns/SlidingWindow/NoRepeatSubstring.java) |  |  |
 | 85. | `String` | `Sliding Window`, `M`  | [Longest Substring with Same Letters after Replacement](CodingPatterns/SlidingWindow/LongestSubstringAfterReplacement.java) |  |  |
+| 86. | `Array` | `Sliding Window`, `M`  | [Longest Subarray with 1s after Replacement](CodingPatterns/SlidingWindow/LongestSubarraywithOnesReplacement.java) |  |  |
