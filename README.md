@@ -93,3 +93,4 @@
 | 84. | `String` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/), `M`  | [Longest Substring Without Repeating Characters](CodingPatterns/SlidingWindow/NoRepeatSubstring.java) |  |  |
 | 85. | `String` | `Sliding Window`, `M`  | [Longest Substring with Same Letters after Replacement](CodingPatterns/SlidingWindow/LongestSubstringAfterReplacement.java) |  |  |
 | 86. | `Array` | `Sliding Window`, `M`  | [Longest Subarray with 1s after Replacement](CodingPatterns/SlidingWindow/LongestSubarraywithOnesReplacement.java) |  |  |
+| 87. | `String` | `Sliding Window`, `M`  | [Permutation in a String](CodingPatterns/SlidingWindow/PermutationInString.java) | Similar [Longest Substring with K Distinct Characters](CodingPatterns/SlidingWindow/LongestSubstringKDistinctCharacters.java)   |  |

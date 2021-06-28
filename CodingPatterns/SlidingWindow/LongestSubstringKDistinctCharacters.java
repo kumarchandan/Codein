@@ -11,7 +11,7 @@ import java.util.Map;
  * Input: String="araaci", K=2
  * Output: 4
  * Explanation: The longest substring with no more than '2' distinct characters is "araa".
- * a, r -> 2 distict
+ * a, r -> 2 distinct
  * 
  * 
  * Input: String="araaci", K=1
