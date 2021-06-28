@@ -89,3 +89,4 @@
 | 80. | `Array` | `Sliding Window`, `E`  | [Maximum Sum Subarray of Size K](CodingPatterns/SlidingWindow/MaximumSumSubarrayofSizeK.java) |  |  |
 | 81. | `Array` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/), `M`  | [Smallest Subarray with a Given Sum](CodingPatterns/SlidingWindow/SmallestSubarrayWithGivenSum.java) |  |  |
 | 82. | `String` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/), `M`  | [Longest Substring with K Distinct Characters](CodingPatterns/SlidingWindow/LongestSubstringKDistinctCharacters.java) |  |  |
+| 83. | `Array` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/fruit-into-baskets/), `M`  | [Fruits in Baskets](CodingPatterns/SlidingWindow/FruitsIntoBaskets.java) | Similar, `Longest Substring with at most 2 distinct characters` |  |

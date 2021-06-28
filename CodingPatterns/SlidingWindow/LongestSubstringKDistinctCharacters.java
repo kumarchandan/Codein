@@ -44,18 +44,19 @@ public class LongestSubstringKDistinctCharacters {
 
         int windowStart = 0;
         int maxLen = 0;
-        Map<Character, Integer> map = new HashMap<>(); // To store character frequency
+        Map<Character, Integer> charMap = new HashMap<>(); // To store character frequency
 
         for (int windowEnd = 0; windowEnd < str.length(); windowEnd++) {
             char rightChar = str.charAt(windowEnd);
-            map.put(rightChar, map.getOrDefault(rightChar, 0) + 1); // Increment or Set to 1
+            charMap.put(rightChar, charMap.getOrDefault(rightChar, 0) + 1); // Increment or Set to 1
 
             // Shrink the sliding window, until we are left with 'k' distinct characters in the frequency map
-            while(map.size() > K) {
+            while(charMap.size() > K) {
                 char leftChar = str.charAt(windowStart);
-                map.put(leftChar, map.get(leftChar) - 1);
-                if(map.get(leftChar) == 0) {
-                    map.remove(leftChar);
+                // Get rid of chars from left
+                charMap.put(leftChar, charMap.get(leftChar) - 1);
+                if(charMap.get(leftChar) == 0) {
+                    charMap.remove(leftChar);
                 }
                 windowStart++; // Shrink the window
             }
