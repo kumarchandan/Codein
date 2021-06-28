@@ -85,7 +85,7 @@
 | 76. | `Trie` |  | [Find All the Words in a Trie](Trie/FindAllWordsInTrie.java) |  |  |
 | 77. | `Trie` |  | [Sort the Elements of an Array using a Trie](Trie/SortElementsOfArray.java) |  |  |
 | 78. | `Trie` |  | [Word Formation from Given Dictionary using Trie](Trie/WordFormationFromDictionary.java) |  |  |
-| 79. | `Array` | `Sliding Window Pattern`, `Easy`  | [Find the Average of All Contiguous Subarrays of Size ‘K’](CodingPatterns/SlidingWindow/FindAvgOfSubArrayOfSizeK.java) |  |  |
-| 80. | `Array` | `Sliding Window Pattern`, `Easy`  | [Maximum Sum Subarray of Size K](CodingPatterns/SlidingWindow/MaximumSumSubarrayofSizeK.java) |  |  |
-| 81. | `Array` | `Sliding Window Pattern`, `Easy`  | [Smallest Subarray with a Given Sum](CodingPatterns/SlidingWindow/SmallestSubarrayWithGivenSum.java) |  |  |
-| 82. | `String` | `Sliding Window Pattern`, `Medium`  | [Longest Substring with K Distinct Characters](CodingPatterns/SlidingWindow/LongestSubstringKDistinctCharacters.java) |  |  |
+| 79. | `Array` | `Sliding Window`, `E`  | [Find the Average of All Contiguous Subarrays of Size ‘K’](CodingPatterns/SlidingWindow/FindAvgOfSubArrayOfSizeK.java) |  |  |
+| 80. | `Array` | `Sliding Window`, `E`  | [Maximum Sum Subarray of Size K](CodingPatterns/SlidingWindow/MaximumSumSubarrayofSizeK.java) |  |  |
+| 81. | `Array` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/), `M`  | [Smallest Subarray with a Given Sum](CodingPatterns/SlidingWindow/SmallestSubarrayWithGivenSum.java) |  |  |
+| 82. | `String` | `Sliding Window`, [LeetCode](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/), `M`  | [Longest Substring with K Distinct Characters](CodingPatterns/SlidingWindow/LongestSubstringKDistinctCharacters.java) |  |  |
