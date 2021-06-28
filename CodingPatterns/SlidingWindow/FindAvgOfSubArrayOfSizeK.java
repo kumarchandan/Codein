@@ -38,7 +38,7 @@ public class FindAvgOfSubArrayOfSizeK {
         return res;
     }
 
-    public static double[] findAverages(int K, int[] arr) {
+    public static double[] findAverages(int[] arr, int K) {
         double[] result = new double[arr.length - K + 1];
         double windowSum = 0;
         int windowStart = 0;
@@ -58,7 +58,7 @@ public class FindAvgOfSubArrayOfSizeK {
     public static void main(String[] args) {
         int[] arr = { 1, 3, 2, 6, -1, 4, 1, 8, 2 };
 
-        double[] avgSum = findAverage(arr, 5); // [2.2, 2.8, 2.4, 3.6, 2.8]
+        double[] avgSum = findAverages(arr, 5); // [2.2, 2.8, 2.4, 3.6, 2.8]
         for (int i = 0; i < avgSum.length; i++) {
             System.out.println(avgSum[i]);
         }
