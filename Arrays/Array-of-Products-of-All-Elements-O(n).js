@@ -26,3 +26,5 @@ function findProduct(arr) {
 
 // Tests
 console.log(findProduct([1,2,3,4])); // [24,12,8,6]
+console.log(findProduct([4,2,1,5,0])); // [0,0,0,0,40] -> [0,0,0,0,Nan] Doesn't work
+console.log(findProduct([4,2,0,5,0]));
